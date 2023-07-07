@@ -1,0 +1,74 @@
+.lt-text {
+ background-color: gainsboro;
+	position: absolute;
+	top: 1135;
+	left: 0;
+	right: 0;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.videos-section {
+	background: gainsboro;
+	position: absolute;
+	top: 1255px;
+	left: 0;
+	right: 0;
+	height: 330px;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+	justify-content: space-between;
+}
+
+.videos-container {
+ width: 400px;
+	height: 300px;
+}
+
+.videos-rel {
+	position: relative;
+}
+
+.vid-bike {
+	width: 400px;
+	height: 300px;
+	object-fit: fill;
+	z-index: 20px
+}
+
+.zoom {
+ position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(235, 32, 40, .5);
+	opacity: 0;
+}
+
+.videos-container:hover .zoom {
+	opacity: 1;
+}
+
+.fazool-con {
+	background-color: gainsboro;
+	position: absolute;
+	top: 1585px;
+	left: 0;
+	right: 0;
+	display: flex;
+	height: 120px;
+	justify-content: center;
+	align-items: center;
+}
+
+.fazool {	
+	font-family: sans-serif;
+	font-size: 35px;
+	margin-right: 26px;
+}

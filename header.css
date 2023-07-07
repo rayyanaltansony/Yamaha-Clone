@@ -1,0 +1,153 @@
+.header {
+background-color: gainsboro;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+height: 65px;
+display: flex;
+flex-direction: row;
+align-items: center;
+z-index: 200;
+}
+
+.left-head {
+	height: 65px;
+	display: flex;
+	align-items: center;
+	width: 310px;
+	margin-left: 65px;
+}
+
+.yamaha-logo {
+	cursor: pointer;
+}
+
+.pa {
+	font-family: sans-serif;
+	font-size: 16px;
+ font-weight: 500;
+	margin-left: 35px;
+}
+
+.right-head {
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 1;
+	justify-content: space-between;
+	margin-right: 80px;
+}
+
+.head-text-div {
+	transition: background-color 0.30s;
+	position: relative;
+}
+
+.head-text {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	transition: color 0.25s;
+	padding: 0px 5px;
+}
+
+.head-text-div:hover .head-text {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: red;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	color: white;
+	padding: 0px 5px;
+}
+
+.no-dec {
+	text-decoration: none;
+ color: #333;
+}
+
+.no-dec-2 {
+	text-decoration: none;
+	color: rgba(235, 32, 40, .8);
+}
+
+.hover-products {
+	background-color: white;
+	position: absolute;
+	width: 135px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0;
+	top: 75px;
+	pointer-events: none;
+	border-bottom: 2px solid rgba(235, 32, 40, .8);
+}
+
+.hover-products-2 {
+	background-color: white;
+	position: absolute;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0;
+	top: 75px;
+	pointer-events: none;
+	border-bottom: 2px solid rgba(235, 32, 40, .8);
+}
+
+.hover-products-3 {
+	background-color: white;
+	position: absolute;
+	width: 160px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0;
+	top: 75px;
+	pointer-events: none;
+	border-bottom: 2px solid rgba(235, 32, 40, .8);
+}
+
+.YB {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: rgba(235, 32, 40, .8);
+	font-size: 15px;
+ transition: background-color 0.12s;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.YB:hover {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: rgba(235, 32, 40, .8);
+	font-size: 15px;
+ background-color: lightgray;
+	width: 120px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.head-text-div:hover .hover-products {
+	opacity: 1;
+}
+
+.head-text-div:hover .hover-products-2 {
+	opacity: 1;
+}
+
+.head-text-div:hover .hover-products-3 {
+	opacity: 1;
+}

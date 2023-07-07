@@ -1,0 +1,107 @@
+.lifestyle-container {
+	background-color: gainsboro;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 615px;
+ height: 120px;
+ display: flex;
+	flex-direction: row;
+ align-items: center;
+	justify-content: center;
+}
+
+.lifestyle-text {
+	font-family: sans-serif;
+	font-size: 35px;
+	margin-right: 26px;
+}
+
+.lifestyle-ad-container {
+	background-color: gainsboro;
+	position: absolute;
+	top: 735px;
+	left: 0;
+	right: 0;
+	height: 400px;
+	padding: 0px 50px;
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+	justify-content: space-between;
+}
+
+.adver-container {
+	width: 360px;
+}
+
+.lifestyle-rel {
+	position: relative;
+}
+
+.ad-1 {
+	height: 300px;
+	width: 360px;
+	object-fit: cover;
+}
+
+.ad1-box {
+	background-color: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 70px;
+}
+
+.box-content {
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-top: 14px;
+	margin-left: 12px;
+	margin-bottom: 9px;
+}
+
+.reviews {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.comments {
+	width: 25px;
+	height: 25px;
+	object-fit: cover;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
+
+.count {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: white;
+	margin-right: 20px;
+}
+
+.count-2 {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: white;
+	margin-right: 20px;
+}
+
+.count-2:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.no-dec-5 {
+	text-decoration: none;
+	color: white;
+}
+
+.box-content:hover {
+	text-decoration: underline;
+	color: white;
+}
